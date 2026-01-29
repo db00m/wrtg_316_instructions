@@ -1,7 +1,9 @@
 # How to Upload Physical Documents
 
 ## Requirements
-
+- 📱 A smart phone capable of running the Adobe Scan app
+- 📰 A document to scan
+- 📧 An email address
 ## Steps
 
 ### 1) Download the App
@@ -25,6 +27,9 @@ Now that camera permissions have been granted, the app will be able to scan docu
 
 <image src="./scan.gif" width="400" />
 
+> [!TIP]
+> For the best quality scans, ensure there is high contrast between the document and the background.  For example, the document in the image above is placed on a back desk, ensuring maximum contrast.
+
 ### 4) Cleanup Document
 With the document captured, the app will now prompt you to adjust the cropped image.  You can do this by dragging the dots and boxes along the capture box until it fits your document.  If no cleanup is needed, click the "Continue Scan" button and repeat steps 3 through 5 until entire document is scanned.
 
@@ -38,6 +43,5 @@ Once the document is scanned, you can click the share button and share using any
 > [!WARNING]
 > Email sends documents without encryption, so be careful when sharing documents that contain sensitive information.
 
-## Troubleshooting
-
-## Notes
+## Feedback
+Please fill out this [survey](https://docs.google.com/forms/d/e/1FAIpQLSepxLmclNPesrrJkbn9hUfL9B1uqyTusRDJTdqwtQaYSx2u1Q/viewform?usp=sharing&ouid=100656098896297541419) to provide us with feedback on these instructions.
