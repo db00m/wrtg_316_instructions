@@ -6,6 +6,7 @@
 
 ### 1) Download the App
 Go to the app store of your choice and search for "Adobe Scan".  Find the app the matches the image below and click "Download".
+
 ![Adobe Scan Download](./download.gif)
 
 ### 2) Sign in with BYU email
