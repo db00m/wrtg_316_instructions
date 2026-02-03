@@ -7,7 +7,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 README="$ROOT/README.md"
 TEMPLATE="$ROOT/template.html"
-OUTPUT="${1:-readme.html}"
+OUTPUT="${1:-index.html}"
 TMP_BODY="$(mktemp)"
 
 cleanup() { rm -f "$TMP_BODY"; }
