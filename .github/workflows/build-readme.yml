@@ -37,12 +37,10 @@ jobs:
           for f in github-md.css *.gif *.png; do
             cp "$f" dist/
           done
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - name: Update pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: readme-html
-          path: dist
+          path: dist/
   deploy:
     needs: build
     permissions:
