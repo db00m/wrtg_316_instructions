@@ -24,12 +24,14 @@ jobs:
         run: pip install --upgrade markdown pygments
 
       - name: Render README
-        run: ./render_readme.sh
+        run: ./render_readme.sh dist/index.html
 
       - name: Collect assets
         shell: bash
         run: |
           mkdir -p dist
+          # Ensure rendered HTML is in dist (in case the script output path changes)
+          test -f dist/readme.html || cp readme.html dist/readme.html || true
           shopt -s nullglob
           for f in github-md.css *.gif *.png; do
             cp "$f" dist/
