@@ -1,0 +1,38 @@
+name: Build README HTML
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install renderer deps
+        run: pip install --upgrade markdown pygments
+
+      - name: Render README
+        run: ./render_readme.sh
+
+      - name: Collect assets
+        shell: bash
+        run: |
+          mkdir -p dist
+          shopt -s nullglob
+          for f in github-md.css *.gif *.png; do
+            cp "$f" dist/
+          done
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: readme-html
+          path: dist
