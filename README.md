@@ -7,8 +7,8 @@
 ## Steps
 
 ### 1) Download the App
-Go to the app store of your choice and search for "Adobe Scan".  Find the app the matches the image below and click "Download". 
-Android app store link: https://play.google.com/store/search?q=adobe%20scan&c=apps&hl=en_US
+Go to the app store of your choice and search for "Adobe Scan".  Find the app the matches the image below and click "Download".   
+Android app store link: https://play.google.com/store/search?q=adobe%20scan&c=apps&hl=en_US   
 Apple app store link: https://apps.apple.com/us/app/adobe-scan-pdf-ocr-scanner/id1199564834
 
 <image src="./download.gif" width="400" />
@@ -49,5 +49,3 @@ Once the document is scanned, you can click the share button and share using any
 
 ## Feedback
 Please fill out this [survey](https://docs.google.com/forms/d/e/1FAIpQLSepxLmclNPesrrJkbn9hUfL9B1uqyTusRDJTdqwtQaYSx2u1Q/viewform?usp=sharing&ouid=100656098896297541419) to provide us with feedback on these instructions.
-
-**let's see if i can figure out github
