@@ -7,7 +7,21 @@
 ## Steps
 
 ### 1) Download the App
-Go to the app store of your choice and search for "Adobe Scan".  Find the app the matches the image below and click "Download".
+Download the Adobe Scan App using your perfered app store:
+
+<a href="https://apps.apple.com/us/app/adobe-scan-pdf-ocr-scanner/id1199564834">
+  <img
+    src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+    height="50"
+    style="padding:6px 0; background:transparent; box-sizing:border-box;"
+  >
+</a>
+<a href="https://play.google.com/store/apps/details?id=com.adobe.scan.android&hl=en_US">
+  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="50">
+</a>
+
+> [!NOTE]
+> If you do not have access to Wi-Fi while downloading the app, downloading the app will use data and will likely take longer than it would on Wi-Fi.
 
 <image src="./download.gif" width="400" />
 
