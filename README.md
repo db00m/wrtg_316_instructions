@@ -7,17 +7,28 @@
 ## Steps
 
 ### 1) Download the App
-Go to the app store of your choice and search for "Adobe Scan".  Find the app the matches the image below and click "Download".   
-Android link: https://play.google.com/store/apps/details?id=com.adobe.scan.android&hl=en_US   
-Apple link: https://apps.apple.com/us/app/adobe-scan-pdf-ocr-scanner/id1199564834  
-*Disclaimer: If you do not have access to Wi-Fi while downloading the app, downloading the app will use data and will likely take longer than it would on Wi-Fi.
+Download the Adobe Scan App using your perfered app store:
+
+<a href="https://apps.apple.com/us/app/adobe-scan-pdf-ocr-scanner/id1199564834">
+  <img
+    src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+    height="50"
+    style="padding:6px 0; background:transparent; box-sizing:border-box;"
+  >
+</a>
+<a href="https://play.google.com/store/apps/details?id=com.adobe.scan.android&hl=en_US">
+  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="50">
+</a>
+
+> [!NOTE]
+> If you do not have access to Wi-Fi while downloading the app, downloading the app will use data and will likely take longer than it would on Wi-Fi.
 
 <image src="./download.gif" width="400" />
 
 ### 2) Sign in with BYU email
 Once the app has downloaded, open it.  When it opens, you will be presented with several sign in options.  Chose the options that says "sign in with email". When prompted, enter your BYU email and enter your BYU credentials. 
 
-<image src="./login_combined_optimized.gif" width="400" />
+<image src="./login_combined.gif" width="400" />
 
 ---
 
@@ -41,7 +52,7 @@ With the document captured, the app will now prompt you to adjust the cropped im
 ### 5) Share Document
 Once the document is scanned, you can click the share button and share using any method you choose.
 
-<image src="./share_link_optimized.gif" width="400" />
+<image src="./share_link.gif" width="400" />
 
 > [!WARNING]
 > Email sends documents without encryption, so be careful when sharing documents that contain sensitive information.
