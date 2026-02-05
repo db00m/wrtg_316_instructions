@@ -28,7 +28,7 @@ Download the Adobe Scan App using your perfered app store:
 ### 2) Sign in with BYU email
 Once the app has downloaded, open it.  When it opens, you will be presented with several sign in options.  Chose the options that says "sign in with email". When prompted, enter your BYU email and enter your BYU credentials. 
 
-<image src="./login_combined.gif" width="400" />
+<image src="./login_combined_optimized.gif" width="400" />
 
 ---
 
@@ -52,7 +52,7 @@ With the document captured, the app will now prompt you to adjust the cropped im
 ### 5) Share Document
 Once the document is scanned, you can click the share button and share using any method you choose.
 
-<image src="./share_link.gif" width="400" />
+<image src="./share_link_optimized.gif" width="400" />
 
 > [!WARNING]
 > Email sends documents without encryption, so be careful when sharing documents that contain sensitive information.
