@@ -61,7 +61,10 @@ body {
   padding-bottom: 0.3em;
 }
 
-.markdown-body h3 { font-size: 1.25em; }
+.markdown-body h3 { 
+  font-size: 1.25em; 
+  color: #25084A;
+}
 .markdown-body h4 { font-size: 1.1em; }
 .markdown-body h5 { font-size: 1em; }
 .markdown-body h6 { font-size: 0.9em; color: var(--muted); }
